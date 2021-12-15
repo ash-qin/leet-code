@@ -7,8 +7,6 @@
 
 package com.ran.qin.double_pointer;
 
-import java.util.Arrays;
-
 public class SortedSquares {
 
     public static void main(String[] args) {

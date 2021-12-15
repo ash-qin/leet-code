@@ -1,3 +1,5 @@
+package com.ran.qin.binary;
+
 /**
  * @Classname BinarySearch
  * @Description 二分查找 leetCode 704
@@ -5,7 +7,7 @@
  * @author zhangqin
  */
 
-package com.ran.qin.binary;
+
 
 public class BinarySearch {
 

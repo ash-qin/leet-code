@@ -1,3 +1,5 @@
+package com.ran.qin.binary;
+
 /**
  * @Classname SearchInsert
  * @Description leetCode 35
@@ -5,7 +7,6 @@
  * @author zhangqin
  */
 
-package com.ran.qin.binary;
 
 public class SearchInsert {
 
