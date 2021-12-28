@@ -1,7 +1,7 @@
 package com.ran.qin.binary;
 
 /**
- * @Classname SearchInsert
+ * @Classame SearchInsert
  * @Description leetCode 35
  * @Date 2021/11/27 8:34 下午
  * @author zhangqin

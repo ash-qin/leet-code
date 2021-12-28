@@ -5,7 +5,7 @@
  * @author zhangqin
  */
 
-package com.ran.qin.double_pointer.middlenodegroup;
+package com.ran.qin.double_pointer.linkedlist;
 
 public class MiddleNode {
 
