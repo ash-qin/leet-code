@@ -1,4 +1,6 @@
-import com.ran.qin.tree.TreeNode;
+package com.ran.qin.tree.impl;
+
+import com.ran.qin.tree.model.TreeNode;
 import com.ran.qin.tree.impl.TreeCreateFactoryImpl;
 import com.ran.qin.tree.impl.TreeSearchFactoryImpl;
 import org.junit.Assert;
@@ -9,7 +11,7 @@ import java.util.List;
 
 /**
  * @author zhangqin
- * @Classname TestTreeSearchFactory
+ * @Classname com.ran.qin.tree.impl.TestTreeSearchFactory
  * @Description 树的查询操作测试类
  * @Date 2022/3/22 9:43 下午
  */

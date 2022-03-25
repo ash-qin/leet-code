@@ -5,7 +5,9 @@
  * @author zhangqin
  */
 
-package com.ran.qin.tree;
+package com.ran.qin.tree.factories;
+
+import com.ran.qin.tree.model.TreeNode;
 
 import java.util.List;
 

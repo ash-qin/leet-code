@@ -9,8 +9,8 @@ package com.ran.qin.tree.impl;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.collection.ListUtil;
-import com.ran.qin.tree.TreeCreateFactory;
-import com.ran.qin.tree.TreeNode;
+import com.ran.qin.tree.factories.TreeCreateFactory;
+import com.ran.qin.tree.model.TreeNode;
 
 import java.util.List;
 

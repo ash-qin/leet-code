@@ -1,4 +1,6 @@
-import com.ran.qin.tree.TreeNode;
+package com.ran.qin.tree.impl;
+
+import com.ran.qin.tree.model.TreeNode;
 import com.ran.qin.tree.impl.TreeCreateFactoryImpl;
 import org.junit.Assert;
 import org.junit.Test;

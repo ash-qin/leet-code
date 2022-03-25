@@ -5,9 +5,8 @@
  * @author zhangqin
  */
 
-package com.ran.qin.dfs_bfs;
+package com.ran.qin.dfs_bfs.solution;
 
-import java.util.Collection;
 import java.util.LinkedList;
 import java.util.Queue;
 

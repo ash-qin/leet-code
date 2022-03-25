@@ -9,8 +9,8 @@ package com.ran.qin.tree.impl;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.collection.ListUtil;
-import com.ran.qin.tree.TreeNode;
-import com.ran.qin.tree.TreeSearchFactory;
+import com.ran.qin.tree.model.TreeNode;
+import com.ran.qin.tree.factories.TreeSearchFactory;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

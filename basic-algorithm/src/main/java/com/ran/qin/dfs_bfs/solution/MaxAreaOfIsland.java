@@ -5,10 +5,7 @@
  * @author zhangqin
  */
 
-package com.ran.qin.dfs_bfs;
-
-import java.util.LinkedList;
-import java.util.Queue;
+package com.ran.qin.dfs_bfs.solution;
 
 public class MaxAreaOfIsland {
 
