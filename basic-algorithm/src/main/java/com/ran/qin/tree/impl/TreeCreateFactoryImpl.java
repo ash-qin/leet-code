@@ -24,12 +24,16 @@ public class TreeCreateFactoryImpl<T> implements TreeCreateFactory<T> {
      * @param index 需要开始创建节点的下标
      * @return 二叉树
      */
+    @Override
     public TreeNode<T> createBinaryTreeLayerSequence(int index, List<T> treeNodeList) {
 
         if (index > treeNodeList.size() - 1) {
             return null;
         }
 
+        if (treeNodeList.get(index) == null){
+            return null;
+        }
         TreeNode<T> root = new TreeNode<T>();
 
         root.setVal(treeNodeList.get(index));
@@ -45,6 +49,7 @@ public class TreeCreateFactoryImpl<T> implements TreeCreateFactory<T> {
      * @param inList  二叉树中序序列
      * @return 二叉树
      */
+    @Override
     public TreeNode<T> createBinaryTreePreInSequence(List<T> preList, List<T> inList) {
 
         if (CollUtil.isEmpty(preList) || CollUtil.isEmpty(inList)){
@@ -80,6 +85,7 @@ public class TreeCreateFactoryImpl<T> implements TreeCreateFactory<T> {
      * @param inList   二叉树中序序列
      * @return 二叉树
      */
+    @Override
     public TreeNode<T> createBinaryTreePostInSequence(List<T> postList, List<T> inList) {
 
         if (CollUtil.isEmpty(postList) || CollUtil.isEmpty(inList)){
