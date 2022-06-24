@@ -20,7 +20,7 @@ public class FindBottomLeftValue {
     public static void main(String[] args) {
         FindBottomLeftValue f = new FindBottomLeftValue();
         TreeCreateFactoryImpl<Integer> factory = new TreeCreateFactoryImpl<>();
-        List<Integer> integers = Arrays.asList(1,2,3,4,null,5,6,null,null,7);
+        List<Integer> integers = Arrays.asList(1, 2, 3, 4, null, 5, 6, null, null, 7);
         TreeNode<Integer> tree = factory.createBinaryTreeLayerSequence(0, integers);
         System.out.println(f.findBottomLeftValue(tree));
     }
@@ -38,7 +38,10 @@ public class FindBottomLeftValue {
         heigh++;
         if (heigh > currentHeigh) {
             currentHeigh = heigh;
-            res = root.getVal();
+            res = root.getVal() == null ? 0 : root.getVal();
+        } else if (heigh == currentHeigh && res == 0) {
+            res = root.getVal() == null ? 0 : root.getVal();
+
         }
         dfs(root.getLeft(), heigh);
         dfs(root.getRight(), heigh);

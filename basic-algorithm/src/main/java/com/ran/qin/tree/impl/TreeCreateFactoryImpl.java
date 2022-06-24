@@ -31,9 +31,6 @@ public class TreeCreateFactoryImpl<T> implements TreeCreateFactory<T> {
             return null;
         }
 
-        if (treeNodeList.get(index) == null){
-            return null;
-        }
         TreeNode<T> root = new TreeNode<T>();
 
         root.setVal(treeNodeList.get(index));
