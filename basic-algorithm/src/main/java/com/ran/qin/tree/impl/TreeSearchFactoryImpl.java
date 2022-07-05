@@ -24,6 +24,7 @@ public class TreeSearchFactoryImpl<T> implements TreeSearchFactory<T> {
      * @param root 树
      * @return 先序遍历的所有节点
      */
+    @Override
     public List<T> preOrderTraverse(TreeNode<T> root) {
 
         if (root == null) {
@@ -42,6 +43,7 @@ public class TreeSearchFactoryImpl<T> implements TreeSearchFactory<T> {
      * @param root 树
      * @return 中序遍历的所有节点
      */
+    @Override
     public List<T> inOrderTraverse(TreeNode<T> root) {
         if (root == null) {
             return ListUtil.empty();
@@ -59,6 +61,7 @@ public class TreeSearchFactoryImpl<T> implements TreeSearchFactory<T> {
      * @param root 树
      * @return 后序遍历的所有节点
      */
+    @Override
     public List<T> postOrderTraverse(TreeNode<T> root) {
         if (root == null) {
             return ListUtil.empty();
@@ -76,6 +79,7 @@ public class TreeSearchFactoryImpl<T> implements TreeSearchFactory<T> {
      * @param root 树
      * @return 层序遍历的所有节点
      */
+    @Override
     public List<T> levelOrderTraverse(TreeNode<T> root) {
         if (root == null) {
             return ListUtil.empty();
